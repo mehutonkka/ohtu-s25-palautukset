@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.3.2 (Python 3.12.3 on linux)" generated="2025-11-10T13:06:12.804661" rpa="false" schemaversion="5">
+<suite id="s1" name="Hello-Robot" source="/home/hagemish/Documents/OhTu/ohtu-s25-palautukset/viikko3/hello-robot">
+<suite id="s1-s1" name="Src" source="/home/hagemish/Documents/OhTu/ohtu-s25-palautukset/viikko3/hello-robot/src">
+<suite id="s1-s1-s1" name="Tests" source="/home/hagemish/Documents/OhTu/ohtu-s25-palautukset/viikko3/hello-robot/src/tests">
+<suite id="s1-s1-s1-s1" name="Increase Counter" source="/home/hagemish/Documents/OhTu/ohtu-s25-palautukset/viikko3/hello-robot/src/tests/increase_counter.robot">
+<test id="s1-s1-s1-s1-t1" name="Increase Counter Many Times" line="10">
+<kw name="Counter Value Should Be" owner="CounterLibrary">
+<arg>0</arg>
+<status status="PASS" start="2025-11-10T13:06:12.875984" elapsed="0.000241"/>
+</kw>
+<kw name="Increase Counter" owner="CounterLibrary">
+<status status="PASS" start="2025-11-10T13:06:12.876395" elapsed="0.000129"/>
+</kw>
+<kw name="Increase Counter" owner="CounterLibrary">
+<status status="PASS" start="2025-11-10T13:06:12.876632" elapsed="0.000106"/>
+</kw>
+<kw name="Increase Counter" owner="CounterLibrary">
+<status status="PASS" start="2025-11-10T13:06:12.876834" elapsed="0.000093"/>
+</kw>
+<kw name="Counter Value Should Be" owner="CounterLibrary">
+<arg>3</arg>
+<status status="PASS" start="2025-11-10T13:06:12.877014" elapsed="0.000146"/>
+</kw>
+<status status="PASS" start="2025-11-10T13:06:12.873340" elapsed="0.004006"/>
+</test>
+<status status="PASS" start="2025-11-10T13:06:12.868299" elapsed="0.013347"/>
+</suite>
+<status status="PASS" start="2025-11-10T13:06:12.856686" elapsed="0.029256"/>
+</suite>
+<status status="PASS" start="2025-11-10T13:06:12.853128" elapsed="0.035131"/>
+</suite>
+<status status="PASS" start="2025-11-10T13:06:12.809819" elapsed="0.091911"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Hello-Robot" id="s1" pass="1" fail="0" skip="0">Hello-Robot</stat>
+<stat name="Src" id="s1-s1" pass="1" fail="0" skip="0">Hello-Robot.Src</stat>
+<stat name="Tests" id="s1-s1-s1" pass="1" fail="0" skip="0">Hello-Robot.Src.Tests</stat>
+<stat name="Increase Counter" id="s1-s1-s1-s1" pass="1" fail="0" skip="0">Hello-Robot.Src.Tests.Increase Counter</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
