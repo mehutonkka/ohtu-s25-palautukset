@@ -1,6 +1,5 @@
 class Tekoaly:
-    def __init__(self, _muistin_koko: int | None = None):
-        # _muistin_koko is ignored but kept for compatibility with older call sites
+    def __init__(self):
         self._siirto = 0
 
     def anna_siirto(self):
